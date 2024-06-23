@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            padding: 0px;
+            margin: 0%;
+        }
+header{
+    width: 100%;
+    height: 50px;
+    float: left;
+    box-sizing: border-box;
+    padding: 6px;
+}
+#brand{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    float: left;
+    margin-left: 24px;
+}
+#tag{
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-family: century gothic;
+    margin-right: 24px;
+}
+nav{
+    width: 100%;
+    height: 105px;
+    background-color: blue;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+#search{
+    width: 400px;
+    height: 40px;
+    float: left;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+#submit{
+    width: 100px;
+    height: 40px;
+    float: left;
+    box-sizing: border-box;
+    border: none;
+    margin-left: 3px;
+    font-size: 16px;
+}
+#menu{
+    width: 600px;
+    height: 40px;
+    float: right;
+    box-sizing: border-box;
+}
+#item{
+    background-color: white;
+    width: 20%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+section{
+    width: 100%;
+    height: 1650px;
+    float: left;
+    box-sizing: border-box;
+    border: 1px;
+    border-style: solid;
+    border-color: blue;
+    padding: 30px;
+}
+#venue{
+    float: left;
+}
+#phone{
+    float: right;
+}
+#popular_sweets{
+    width: 720px;
+    height: 550px;
+    float: left;
+    box-sizing: border-box;
+    background-color: black;
+    margin-top: 30px;
+    padding: 25px;
+}
+#two{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#sweets_images{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+}
+#rate_list{
+    width: 400px;
+    height: 550px;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 20px
+}
+#rate_header{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: century gothic;
+    font-size: 20px;
+}
+#rate_containt{
+background-color: blue;
+}
+#s_name{
+    color: white;
+    font-family: century gothic;
+    font-size: 22px;
+    padding: 10px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color:white ;
+}
+#rate{
+    list-style: none;
+}
+fieldset{
+    width:690px;
+    height: 550px;
+    float: left;
+    margin-top: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    padding: 10px;
+}
+legend{
+    font-family: century gothic;
+    font-size: 30px;
+    font-weight: bold;
+}
+#order_online{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+#order_input{
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    margin-top: 5px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+#submit_btn{
+    padding: 10px;
+    font-size: 15px;
+    float: right;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    background-color: white;
+}
+#abt_us{
+    width: 400px;
+    height: 550px;
+    float: right;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    background-color: white;
+    margin-top: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#about_title{
+    text-align: center;
+    font-family: century gothic;
+    font-size: 30px;
+}
+#abt_text{
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+#more_sweets{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+#m_sweets{
+    text-align: center;
+    font-family: century gothic;
+    font-size: 30px;
+}
+#sweets{
+    width: 218px;
+    height: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    float: left;
+    margin-right: 61px;
+    
+}
+#sweets_end{
+    width: 218px;
+    height: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    float: left;
+}
+#sweet_pick{
+    width: 180px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 19px;
+}
+#btn_buynow{
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    width: 100px;
+    background-color: white;
+}
+footer{
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    float: left;
+    background-color: black;
+}
+#contect_us{
+    width: 400px;
+    height: 250px;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    padding-left: 30px;
+}
+#social_link{
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+    float: right;
+    
+}
+#contect_title{
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+#contect_details{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+#social_logo{
+    width: 60px ;
+}
+#develper{
+    float: left;
+    color: white;
+    font-family: century gothic;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+    </style>
+
+</head>
+<body>
+<header>
+    <h1 id="brand">Sweetshop.Com</h1>
+    <p id="tag">The World's Largest Sweets And bekry Shop</p>
+</header>
+<nav>
+    <form>
+        <input type="search" name="search" placeholder="search you sweets here" id="search">
+        <input type="submit" id="submit" value="search">
+    </form>
+    <table id="menu">
+        <tr>
+            <td id="item"><a href="#">home</td></a>
+            <td id="item"><a href="#">Sweets</td></a>
+            <td id="item"><a href="#">bekrys</td></a>
+            <td id="item"><a href="#abt_us">about us</td></a>
+            <td id="item"><a href="#contect_us ">contect us</td></a>
+        </tr>
+    </table>
+</nav>
+<section>
+    <address id="Venue">
+        Venue : Agra Road Jamdoli Jaipur - 302031
+ </address>
+ <address id="phone">
+    Order  Online -    +919828546373  +918764744747
+ </address>
+ <div id="popular_sweets"> 
+    <h1 id="two">Our popular_sweets</h1>
+
+    <img src="sweets.jpg" alt="sweets" id="sweets_images">
+    <img src="sweets1.jpg" alt="sweets"  id="sweets_images">
+    <img src="sweets3.jpg" alt="sweets"  id="sweets_images">
+    <img src="sweets2.jpg" alt="sweets"  id="sweets_images">
+    
+ </div>
+
+ <table id="rate_list">
+    <tr>
+        <td id="rate_header"> Sweets Name</td>
+        <td id="rate_header">Price</td>
+    </tr>
+    <tr>
+        <td id="rate_containt">
+            <ol>
+                <li id="s_name">rasgulla</li>
+                <li id="s_name">jalebi</li>
+                <li id="s_name">laddo</li>
+                <li id="s_name">barfi</li>
+                <li id="s_name">gewar</li>
+                <li id="s_name">milk-shek</li>
+                <li id="s_name">laddo</li>
+                <li id="s_name">barfi</li>
+                <li id="s_name">gewar</li>
+            </ol>
+        </td> 
+        <td id="rate_containt">
+            <ol id="rate">
+                <li id="s_name">200kg</li>
+                <li id="s_name">200kg</li>
+                <li id="s_name">200kg</li>
+                <li id="s_name">200kg</li>
+                <li id="s_name">200kg</li>
+                <li id="s_name">200kg</li>
+                <li id="s_name">200kg</li>
+                <li id="s_name">200kg</li>
+                <li id="s_name">200kg</li>
+            </ol>
+        </td>
+    </tr>
+ </table>
+ <fieldset id="frm_box">
+    <legend>Order Online</legend>
+    <form id="order_online">
+        Buyer Name <br>
+
+        <input type="text" name="name" id="order_input" >
+        <br><br>
+        Mobile-no <br>
+        <input type="number" name="mobile" id="order_input"><br><br>
+
+        choose sweets <br>
+
+        <select name="shoose sweets">
+            <option value="choose sweets">choose sweets</option>
+            <option value="rasgulla">rasgulla</option>
+            <option value="barfi">barfi</option>
+            <option value="laddu">laddu</option>
+            <option value="gulab jamun">gulab jamun</option>
+            <option value="jalebi">jalebi</option>
+        </select><br><br>
+
+        quantity <br>
+
+<input type="text" name="quantity" id="order_input"><br><br>
+
+address <br>
+
+<textarea name="address"></textarea><br><br>
+
+<input type="submit" value="order now" id="submit_btn">
+    </form>
+ </fieldset>
+ <div id="abt_us">
+    <h1 id="about_title">about us</h1>
+    <hr>
+    <p id="abt_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut est exercitationem totam necessitatibus ipsa. Ipsum, illo veniam. Neque, voluptates. Voluptatibus, cum non? Sed, facilis quisquam corrupti dolores maxime doloribus quam delectus sint deserunt incidunt magnam tenetur, asperiores commodi sunt aut a! Accusantium excepturi pariatur totam est similique adipisci expedita eum fuga, repellat nostrum modi eaque autem voluptas quidem veniam doloremque nam cumque impedit architecto tenetur. Soluta officia perferendis aliquid omnis quia unde earum dignissimos. Maiores cumque quia ratione a nisi.</p>
+ </div>
+
+ <div id="more_sweets">
+    <h1 id="m_sweets">more sweets</h1>
+ </div>
+
+ <div id="sweets">
+    <img src="sweets4.jpg" id="sweet_pick">
+    <center>
+        <a href="#frm_box"><button id="btn_buynow">Buy Now</button></a>
+    </center>
+ </div>
+ <div id="sweets">
+    <img src="sweets5.jpg" id="sweet_pick">
+    <center>
+        <a href="#frm_box"><button id="btn_buynow">Buy Now</button></a>
+    </center>
+ </div>
+ <div id="sweets">
+     <img src="sweets1.jpg" id="sweet_pick">
+     <center>
+        <a href="#frm_box"></a><button id="btn_buynow">Buy Now</button></a>
+    </center>
+</div>
+ <div id="sweets">
+    <img src="sweets2.jpg" id="sweet_pick">
+    <center>
+        <a href="#frm_box"><button id="btn_buynow">Buy Now</button></a>
+    </center>
+ </div>
+ <div id="sweets_end">
+    <img src="sweets.jpg" id="sweet_pick">
+<center>
+    <a href="#frm_box"><button id="btn_buynow">Buy Now</button></a>
+</center>
+ </div>
+
+</section>
+<footer>
+<div id="contect_us">
+    <h1 id="contect_title">contect us</h1>
+    <address id="contect_details">website : Sweetshop.com</address>
+    <address id="contect_details">Email : rahulsharma453@gmail.com</address>
+    <address id="contect_details">phone-no : +919828403720</address>
+    <address id="contect_details">address : Agra Road Jamdoli Jaipur</address>
+</div>
+<div id="develper">develper by sukhdev sharma</div>
+<div id="social_link">
+    <h1 id="contect_title">follow us</h1>
+   <a href="www.facebook.com"><img src="facebook.jpg" alt="facebook" id="social_logo"></a>
+    <a href="www.tiwtter.com"><img src="tiwtter.png" alt="tiwtter" id="social_logo"></a>
+   <a href="www.linkdin.com"><img src="linkdin.png" alt="linkdin" id="social_logo"></a>
+</div>
+</footer>
+</body>
+</html>
